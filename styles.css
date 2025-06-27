@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    // border: 1px red solid;
+    
+}
+
+body {
+    margin: 0 auto;
+    background-color: #97BBC9;
+    padding-bottom: 50px;
+}
+
+
+h1, h2, h3, h4, h5 {
+   font-family:Verdana, Geneva, Tahoma, sans-serif; 
+   margin-bottom: 10px;
+}
+
+h4 {
+    font-style: italic;
+    font-weight: 100;
+}
+
+ul {
+    list-style:square;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+ol{
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+main {
+    color: hsl(247, 18, 10);
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+}
+
+ul.nav, div.nav{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li.navbar, a.navbar {
+    display: inline-block;    
+    padding: 20px
+}
+
+a {
+    color: #BA5C12;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    color: #88410b;
+}
+
+a:visited {
+    color: #71A2B6;
+}
+
+
+.header {
+   background-color: #FFF7F8;
+   padding: 30px 0;
+   border-bottom: 3px solid #BA5C12;
+}
+
+.main-title {
+    width: 75vw;
+    margin: 0 auto 20px;
+    text-align: center;
+    padding: .25em;   
+}
+
+.recipe-title {
+    font-size: 4em;
+    padding-bottom: 0;
+
+}
+
+img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #BA5C12;
+}
+
+.directions {
+    padding: 0 30px;
+}
